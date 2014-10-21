@@ -36,7 +36,8 @@ Compilation for Linux and probably other Unix:
 ```	mkdir build
 	cd build
 	cmake .. -DCMAKE_BUILD_TYPE=Release
-	make ; make install```
+	make ; make install
+```
 
 
 ### USING THE SOURCE
