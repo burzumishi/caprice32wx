@@ -2,7 +2,7 @@
 
 ```
 (c) Copyright 1997-2004 Ulrich Doewich (Caprice32)
-(c) Copyright 2008-2013 The CPCSDK crew: CloudStrife, Krusty, PulkoMandy - [Caprice32 Reloaded]
+(c) Copyright 2008-2013 CPCSDK: CloudStrife, Krusty, PulkoMandy (Reloaded)
 (c) Copyright 2014 Antonio Cao (Caprice32wx)
 ```
 
