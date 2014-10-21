@@ -1,0 +1,75 @@
+//CLI syntax for CapriceReloaded (cliparser)
+
+// ============ Registers ============
+
+//List registers values
+show registers
+
+//List CRTC registers values
+show registers crtc
+
+//List GA registers values
+show registers ga
+
+//List Z80 registers
+show registers z80
+
+// ============ Breakpoints ============
+//Add a breakpoint in the memory
+breakpoints add <UINT:adress>
+
+//Remove a breakpoint
+breakpoints remove <UINT:adress>
+
+//List all breakpoints
+breakpoints list
+
+//Continue program execution
+continue
+
+//Step execute step by step
+step
+
+// =========== video ==============
+//put screen in color 
+video color on
+
+//put screen in greyscale
+video color grey
+
+//put screen in greenscale
+video color green
+
+
+// ============ Memory =============
+//Poke a byte (or word) in memory
+memory poke <UINT:address> <UINT:value>
+
+//Read a byte in memory
+memory peek <UINT:address>
+
+//Disassemble memory
+memory disassemble  { <UINT:address> { <UINT:quantity> } }
+//Disassemble memory at pc
+memory disassemble pc { <UINT:quantity> }
+
+// ============== Asm ==============
+//Compile file in memory
+asm compile <FILE:filename>
+
+//Launch last compiled program, or jump at indiquated address
+asm launch { <UINT:address> }
+
+// ========== Screenshot ===========
+//Save screenshot
+screenshot save
+
+// ============ various ============
+// Quit Caprice
+quit
+
+//Reset emu
+reset
+
+// Show help
+help { <STRING:filter> }
