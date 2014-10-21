@@ -2,19 +2,17 @@
 
 ```
 (c) Copyright 1997-2004 Ulrich Doewich (Caprice32)
-(c) Copyright 2008-2013 The CPCSDK crew: CloudStrife, Krusty, PulkoMandy - [Caprice32 Reloaded] (http://cpcsdk.googlecode.com)
+(c) Copyright 2008-2013 The CPCSDK crew: CloudStrife, Krusty, PulkoMandy - [Caprice32 Reloaded]
 (c) Copyright 2014 Antonio Cao (Caprice32wx)
 ```
 
 ## WHAT IS IT?
 
-Reloaded is a software emulator of the Amstrad CPC 8bit home computer series. The emulator faithfully imitates the CPC464, CPC664, and CPC6128 models. By recreating the operations of all hardware components at a low level, the emulator achieves a high degree of compatibility with original CPC software. These programs or games can be run unmodified at real-time or higher speeds, depending on the emulator host environment.
+**Caprice32wx** is a software emulator of the Amstrad CPC 8bit home computer series. The emulator faithfully imitates the CPC464, CPC664, and CPC6128 models. By recreating the operations of all hardware components at a low level, the emulator achieves a high degree of compatibility with original CPC software. These programs or games can be run unmodified at real-time or higher speeds, depending on the emulator host environment.
 
 Reloaded is based on a fork of Caprice32, but nearly every part was rewritten from scratch.
 
 Caprice32wx is based on a fork of Reloaded by CPCSDK Team.
-
-
 
 
 ## REQUIREMENTS
@@ -40,6 +38,7 @@ Compilation for Linux and probably other Unix:
 	cmake .. -DCMAKE_BUILD_TYPE=Release
 	make ; make install```
 
+
 ### USING THE SOURCE
 
 The source for Caprice32wx is distributed under the terms of the GNU General Public License (GNU GPL), which is included in this archive as "LICENSE". Please make sure that you understand the terms and conditions of the license before using the source.
@@ -48,7 +47,6 @@ I encourage you to get involved in the project - please see the Caprice32wx page
 
 
 ## COMMENTS OR READY TO CONTRIBUTE?
-
 
 If you have suggestions, a bug report or even want to join the development team, please feel free to use one of the many contact methods presented on the Caprice32wx project page on GitHub - see the URL at the top.
 
