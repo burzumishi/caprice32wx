@@ -2,7 +2,9 @@ Caprice32wx - Amstrad CPC Emulator
 ==================================
 
 (c) Copyright 1997-2004 Ulrich Doewich (Caprice32)
+
 (c) Copyright 2008-2013 The cpcdsk crew: CloudStrife, Krusty, PulkoMandy - http://cpcsdk.googlecode.com (Caprice32 Reloaded)
+
 (c) Copyright 2014 Antonio Cao (Caprice32wx)
 
 ..........................................................................
