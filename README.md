@@ -25,8 +25,8 @@ You will need the following to successfully compile an executable:
  - [SDL] (https://www.libsdl.org) -> Simple Direct Layer
  - [wxWidgets] (http://www.wxwidgets.org) -> Cross Platform GUI Library
  - [CMake] (http://www.cmake.org) -> CMake Build System
- - [libpng] (http://www.libpng.org (optional, for taking screenshots)
- - Python Audio Bindings: python3-portaudio, python-portaudio python-alsa (from your package manager)
+ - [libpng] (http://www.libpng.org) -> Graphics Library for taking screenshots (Optional)
+ - Python Audio Bindings: python3-portaudio, python-portaudio python-alsa (can be installed from your distro's package manager)
 
 
 ### BUILD
