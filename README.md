@@ -33,10 +33,10 @@ You will need the following to successfully compile an executable:
 
 Compilation for Linux and probably other Unix:
 
-` mkdir build
-	cd build
-	cmake .. -DCMAKE_BUILD_TYPE=Release
-	make ; make install`
+```mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make ; make install```
 
 
 ### USING THE SOURCE
