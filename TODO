@@ -1,15 +1,14 @@
-Important :
-- Fenetre de configuration (gestion de la sauvegarde des options, du bouton annuler)
-- Gestion du clavier (voire id�e longshot)
-- Ajout registre Gate Array (manque RMR)
-- Optimisation emulation video
-- Faire emulation autres CRTC (crtc0 ok, crtc1 en cours)
+Importante :
 
-Mineur :
-- Gestion correcte volume son
-- Possibilit� correction des niveaux de mixage son
-- Possibilit� modifier palette 27 couleurs et faire des presets (manque presets et fenetre configuration)
-- Ajustement de la taille du buffer de son par l'utilisateur
+- Ventana de configuración ( opciones de gestión de copia de seguridad , del botón Cancelar )
+- Gestión del teclado ( o idea longshot )
+- Registro alto de Gatearray (falta CMA )
+- Optimización de la emulación de vídeo
+- Hacer otra emulación CRTC ( crtc0 ok CRTC1 en curso)
 
-Urgent :
-- Possibilit� de compilation CrossDev windows
+Menor :
+
+- Manejo correcto del volumen
+- Corrección del nivel de capacidad de la mezcla de sonido
+- Posibilidad de cambiar de paleta 27 colores y hacer preajustes ( presets desaparecidas y configuración de la ventana )
+- Ajustar el tamaño del búfer del usuario
