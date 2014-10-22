@@ -251,7 +251,7 @@ void CapriceWindowImpl::onInsertDiscA( wxCommandEvent& event )
 			int error = emulator->GetFDC()->insertA(std::string(CurrentDocPath.mb_str()));
 			switch(error) {
 				case 0:
-					SetTitle(wxString( "Caprice32Reloaded - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
+					SetTitle(wxString( "Caprice32wx - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
 					break;
 				case ERR_DSK_INVALID:
 					wxLogError("Invalid DSK file!");
@@ -295,7 +295,7 @@ void CapriceWindowImpl::onInsertDiscB( wxCommandEvent& event )
         int error = emulator->GetFDC()->insertB(std::string(CurrentDocPath.mb_str()));
 		switch(error) {
 			case 0:
-        		SetTitle(wxString( "Caprice32Reloaded - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
+        		SetTitle(wxString( "Caprice32wx - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
 				break;
 			case ERR_DSK_INVALID:
 				wxLogError("Invalid DSK file!");
@@ -348,7 +348,7 @@ void CapriceWindowImpl::onLoadSNA( wxCommandEvent& event )
 			break;
 		case 0:
 			// ok.
-    		SetTitle(wxString( "Caprice32Reloaded - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
+    		SetTitle(wxString( "Caprice32wx - ") << OpenDialog->GetFilename()); // Set the Title to reflect the file open
 			break;
 		default:
 			wxLogError("Unknown error !");
@@ -522,7 +522,7 @@ void CapriceWindowImpl::insertTape( wxCommandEvent& event ) {
     if (OpenDialog->ShowModal() == wxID_OK) // if the user click "Open" instead of "Cancel"
     {
         wxString CurrentDocPath = OpenDialog->GetPath();
-        SetTitle(wxString( "Caprice32Reloaded - ") << 
+        SetTitle(wxString( "Caprice32wx - ") << 
             OpenDialog->GetFilename()); // Set the Title to reflect the file open
 
 		emulator->GetTape()->tape_insert(CurrentDocPath.mb_str());

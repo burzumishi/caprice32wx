@@ -228,7 +228,7 @@ int dsk_save (const char *pchFileName, t_drive *drive)
 	if ((pDSKfileObject = fopen(pchFileName, "wb")) != NULL) {
 		memset(&dh, 0, sizeof(dh));
 		strcpy(dh.id, "EXTENDED CPC DSK File\r\nDisk-Info\r\n");
-		strcpy(dh.unused1, "Reloaded!\r\n");
+		strcpy(dh.unused1, "Caprice32wx!\r\n");
 		dh.tracks = drive->tracks;
 		dh.sides = (drive->sides+1) | (drive->random_DEs); // correct side count and indicate random DEs, if necessary
 		pos = 0;

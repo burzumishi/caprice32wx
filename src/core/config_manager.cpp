@@ -36,12 +36,6 @@
 #include "emulator.h"
 #include "misc/file/c_inifile.h"
 
-#ifdef WIN32
-#include <direct.h>
-#else
-#include <unistd.h>
-#endif
-
 #define MIN_SPEED_SETTING 2
 #define MAX_SPEED_SETTING 32
 #define DEF_SPEED_SETTING 8

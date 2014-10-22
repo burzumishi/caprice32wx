@@ -56,10 +56,6 @@
 
 #include <cassert>
 
-#ifndef _WIN32
-#include <unistd.h>
-#endif
-
 using std::make_shared;
 
 struct null_deleter
