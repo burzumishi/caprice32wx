@@ -1,6 +1,6 @@
 # In this directory we build the static library of emulator core
 cmake_minimum_required(VERSION 2.8)
-project(ReloadedCore)
+project(Caprice32Core)
 
 include_directories(..)
 
@@ -32,12 +32,8 @@ set(SOURCE_FILES
 	../misc/synchro.cpp
 )
 
-add_library(ReloadedCore STATIC ${SOURCE_FILES})
+add_library(Caprice32Core STATIC ${SOURCE_FILES})
 
-target_link_libraries(ReloadedCore ${CMAKE_THREAD_LIB_INIT})
+target_link_libraries(Caprice32Core ${CMAKE_THREAD_LIB_INIT})
 
-if (WIN32)
-	target_link_libraries(ReloadedCore stsoundlibrary)
-else (WIN32)
-	target_link_libraries(ReloadedCore stsound)
-endif (WIN32)
+target_link_libraries(Caprice32Core stsound)

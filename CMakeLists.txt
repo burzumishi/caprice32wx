@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
-project(Reloaded)
+project(Caprice32wx)
 
-option(USE_RELOADED "Compile Reloaded" ON)
+option(USE_CAPRICE32WX "Compile Caprice32wx" ON)
 option(USE_SNAMP "Compile SNAMP - SNApshot Music Player" ON)
 IF (HAIKU)
 	set(USE_THREAD ON)

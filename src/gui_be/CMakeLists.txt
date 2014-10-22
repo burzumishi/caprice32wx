@@ -4,7 +4,7 @@
 include_directories(..)
 include_directories(keymap)
 
-add_executable(reloaded
+add_executable(caprice32wx
 	RWin.cpp
 	REmulator.cpp
 	RApp.cpp
@@ -15,7 +15,7 @@ add_executable(reloaded
 	keymap/Keymap2.cpp
 )
 
-add_dependencies(reloaded ReloadedCore)
-target_link_libraries(reloaded ReloadedCore)
+add_dependencies(caprice32wx Caprice32Core)
+target_link_libraries(caprice32wx Caprice32Core)
 
-target_link_libraries(reloaded stsound be game tracker)
+target_link_libraries(caprice32wx stsound be game tracker)

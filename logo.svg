@@ -14,9 +14,9 @@
    height="205.71431"
    id="svg2"
    version="1.1"
-   inkscape:version="0.47 r22583"
-   sodipodi:docname="REloaded logo.svg"
-   inkscape:export-filename="H:\Documents and Settings\PulkoMandy\Mes documents\Projects\cpcsdk\Reloaded\logo.png"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/burzum-ishi/Descargas/caprice32wx-dev/logo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -249,16 +249,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.2036936"
-     inkscape:cx="224.62288"
-     inkscape:cy="102.85715"
+     inkscape:cx="242.30127"
+     inkscape:cy="135.76886"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-nodes="false"
-     inkscape:window-width="1400"
-     inkscape:window-height="1031"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -277,13 +277,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-111.6132,-449.50501)">
-    <rect
-       style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect3663"
-       width="398.79065"
-       height="205.68135"
-       x="111.9694"
-       y="449.517" />
     <rect
        style="color:#000000;fill:url(#linearGradient3806);fill-opacity:1;stroke:none;stroke-width:2.14913988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect2818-0"
@@ -334,35 +327,29 @@
        transform="matrix(1,0,-0.50150373,0.86515548,0,0)" />
     <text
        xml:space="preserve"
-       style="font-size:130.7328949px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sylfaen;-inkscape-font-specification:Sylfaen"
-       x="120.53263"
-       y="549.61517"
+       style="font-size:50.76813889px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sylfaen;-inkscape-font-specification:Sylfaen"
+       x="139.90154"
+       y="569.71906"
        id="text2851"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan2853"
-         x="120.53263"
-         y="549.61517"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ProggyTinyTTSZ;-inkscape-font-specification:ProggyTinyTTSZ"><tspan
-           style="fill:#ffffff;fill-opacity:1"
-           id="tspan3665">RE</tspan><tspan
-           style="fill:#000000;fill-opacity:0.50196078"
-           id="tspan3707">loaded</tspan></tspan></text>
+         x="139.90154"
+         y="569.71906"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold"
+         id="tspan3034">caprice32wx</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:130.7328949px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sylfaen;-inkscape-font-specification:Sylfaen"
-       x="116.53263"
-       y="545.61517"
+       style="font-size:50.76813889px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sylfaen;-inkscape-font-specification:Sylfaen"
+       x="141.90154"
+       y="567.71906"
        id="text2851-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2853-8"
-         x="116.53263"
-         y="545.61517"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ProggyTinyTTSZ;-inkscape-font-specification:ProggyTinyTTSZ"><tspan
-           style="fill:#000000;fill-opacity:0.76862745"
-           id="tspan3665-2">RE</tspan><tspan
-           style="fill:#ffffff;fill-opacity:1"
-           id="tspan3707-7">loaded</tspan></tspan></text>
+         x="141.90154"
+         y="567.71906"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">caprice32<tspan
+   style="font-weight:bold;fill:#ffcc00;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold"
+   id="tspan3038">wx</tspan></tspan></text>
   </g>
 </svg>

@@ -5,8 +5,13 @@
 // PLEASE DO "NOT" EDIT THIS FILE!
 ///////////////////////////////////////////////////////////////////////////
 
+#ifdef __HAVE_CONFIG_H
+#include "config.h"
+#endif
+
 #include <wx/imagpng.h>
 
+#include "core/CPCKeyDefs.h"
 #include "CapriceUI.h"
 
 ///////////////////////////////////////////////////////////////////////////
@@ -403,7 +408,7 @@ Settings::Settings( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	m_staticText63->Wrap( -1 );
 	gSizer1->Add( m_staticText63, 0, wxFIXED_MINSIZE, 5 );
 	
-	m_comboBox1 = new wxComboBox( m_panel_input, wxID_ANY, "FR-FR", wxDefaultPosition, wxDefaultSize, 0, NULL, 0 ); 
+	m_comboBox1 = new wxComboBox( m_panel_input, wxID_ANY, "ES-ES", wxDefaultPosition, wxDefaultSize, 0, NULL, 0 ); 
 	gSizer1->Add( m_comboBox1, 1, 0, 5 );
 	
 	m_staticText64 = new wxStaticText( m_panel_input, wxID_ANY, "CPC Layout", wxDefaultPosition, wxDefaultSize, 0 );
@@ -413,7 +418,7 @@ Settings::Settings( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	wxString m_choice1Choices[] = { "English 6128", "French 6128", "Spanish 6128", "English 464", "French 464", "Spanish 464" };
 	int m_choice1NChoices = sizeof( m_choice1Choices ) / sizeof( wxString );
 	m_choice1 = new wxChoice( m_panel_input, wxID_ANY, wxDefaultPosition, wxDefaultSize, m_choice1NChoices, m_choice1Choices, 0 );
-	m_choice1->SetSelection( 1 );
+	m_choice1->SetSelection( 2 );
 	gSizer1->Add( m_choice1, 1, 0, 5 );
 	
 	bSizer26->Add( gSizer1, 0, 0, 5 );

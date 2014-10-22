@@ -168,7 +168,7 @@ const char * CapriceInputSettingsImpl::getKeymapFileNameLoad()
 {
 	static char str[1024];
 	emulator.getConfigPath(str);
-	strcat(str,"/Keymap.cfg");
+	strcat(str,"/keymap.cfg");
 	return str;
 }
 
@@ -176,7 +176,7 @@ const char * CapriceInputSettingsImpl::getKeymapFileNameSave()
 {
 	static char str[1024];
 	emulator.getConfigPath(str);
-	strcat(str,"/Keymap.cfg");
+	strcat(str,"/keymap.cfg");
 	return str;
 }
 

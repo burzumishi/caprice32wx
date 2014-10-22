@@ -55,8 +55,8 @@ WXEmulator::WXEmulator(shared_ptr<VideoPlugin> video, shared_ptr<AudioPlugin> au
 		wxMkDir(s.mb_str(), 0700);
 #endif
 
-		wxCopyFile(s2 + "/caprice32.conf", s+ "/caprice32.conf", false);
-		wxCopyFile(s2 + "/Keymap.cfg", s+ "/Keymap.cfg", false);
+		wxCopyFile(s2 + "/caprice32wx.conf", s+ "/caprice32wx.conf", false);
+		wxCopyFile(s2 + "/keymap.cfg", s+ "/keymap.cfg", false);
 	}
 	strcpy(this->_config_path,s.mb_str());
 	// Now we need to reload the config with the correct path...

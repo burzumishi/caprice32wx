@@ -144,7 +144,7 @@ void t_CPC::loadConfiguration ()
 
 	char chFileName[1024];
 	emulator->getConfigPath(chFileName);
-	strcat(chFileName,"/caprice32.conf") ;
+	strcat(chFileName,"/caprice32wx.conf") ;
 
 	c_inifile_init( chFileName,&err);
 
@@ -503,7 +503,7 @@ void t_CPC::saveConfiguration ()
 
 	char chFileName[1024];
 	emulator->getConfigPath(chFileName);
-	strcat(chFileName,"/caprice32.conf") ;
+	strcat(chFileName,"/caprice32wx.conf") ;
 
 
 	if ((!c_inifile_init( chFileName,&err)) || err!=C_INIFILE_NO_ERROR)

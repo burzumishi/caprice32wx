@@ -12,7 +12,7 @@
 
 **Reloaded** is based on a fork of **Caprice32**, but nearly every part was rewritten from scratch.
 
-**Caprice32wx** is based on a fork of **Reloaded** by CPCSDK Team.
+**Caprice32wx** is based on **Caprice32 Reloaded** by CPCSDK Team.
 
 
 ## REQUIREMENTS
@@ -21,7 +21,7 @@ You will need the following to successfully compile an executable:
 
  - [**Alsa**] (http://www.alsa-project.org) -> Advanced Linux Sound Arquitecture
  - [**Portaudio**] (http://portaudio.com) -> Audio I/O library
- - [**libstsound**] (http://cpcsdk.googlecode.com/svn/trunk/libstsound/) -> Audio Library emulating an AY-3-8912 Chipset
+ - **libstsound** (in source "contrib" directory) -> Audio Library emulating an AY-3-8912 Chipset
  - [**SDL**] (https://www.libsdl.org) -> Simple Direct Layer
  - [**wxWidgets**] (http://www.wxwidgets.org) -> Cross Platform GUI Library
  - [**CMake**] (http://www.cmake.org) -> CMake Build System
@@ -41,6 +41,7 @@ make;
 make install;
 ```
 
+**NOTE:** _GNU Autotools does not build yet!_
 
 ### USING THE SOURCE
 

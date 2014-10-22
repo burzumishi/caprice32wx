@@ -2916,7 +2916,7 @@ bool wxSTEditor::StartAutoCompleteWord(bool onlyOneWord, bool add_keywords) {
                 int wordEnd = posFind + static_cast<int>(root.length());
                 //wxPrintf("AutoComp '%s' pos %d/%d - %d\n", root.c_str(), (int)wordEnd, (int)doclen, (int)wordsNear.GetCount());
                 if (posFind != posCurrentWord) {
-                        while (wordCharacters.Find(wordEnd < doclen ? (wxChar)GetCharAt(wordEnd) : '\0') != wxNOT_FOUND)
+                        while (wxUniChar(wordCharacters.Find(wordEnd < doclen ? (wxChar)GetCharAt(wordEnd) : '\0')) != wxNOT_FOUND)
                                 wordEnd++;
                         unsigned int wordLength = wordEnd - posFind;
                         if (wordLength > root.length()) {

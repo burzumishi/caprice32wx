@@ -92,17 +92,17 @@ bool CapriceApp::OnInit()
 
     WXLog::init();
 
-    SetAppName("reloaded");
+    SetAppName("caprice32wx");
 
 #if defined(IPC)
 	// Check if another instance is running
-	const wxString name = wxString::Format("reloaded-%s", wxGetUserId().mb_str());
+	const wxString name = wxString::Format("caprice32wx-%s", wxGetUserId().mb_str());
 	wsic = new wxSingleInstanceChecker(name);
 	if ( wsic->IsAnotherRunning() )
 	{
 		// Another instance is running - parse CLI and send to it.
 		wxClient wc;
-		ipcCnx* CNX = (ipcCnx*)wc.MakeConnection("localhost","~/.reloadedcommand","loadthings");
+		ipcCnx* CNX = (ipcCnx*)wc.MakeConnection("localhost","~/.caprice32wx_command","loadthings");
 		if(CNX == NULL) {
 			wxLogError("Unable to connect to running instance !");
 			return false;
@@ -134,7 +134,7 @@ bool CapriceApp::OnInit()
 
 #if defined(IPC)
 	commServer = new ipcServer();
-	commServer->Create("~/.reloadedcommand");
+	commServer->Create("~/.caprice32_command");
 #endif
 
 #if SOUND_OUTPUT == SOUND_OUTPUT_PortAudio

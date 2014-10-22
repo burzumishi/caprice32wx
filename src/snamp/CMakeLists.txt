@@ -15,15 +15,11 @@ add_executable(snamp WIN32
 	${AudioPlugin}
 )
 
-add_dependencies(snamp ReloadedCore)
-target_link_libraries(snamp ReloadedCore)
+add_dependencies(snamp Caprice32Core)
+target_link_libraries(snamp Caprice32Core)
 
 target_link_libraries(snamp ${CMAKE_THREAD_LIB_INIT})
 
-if (WIN32)
-	target_link_libraries(snamp portaudio_x86)
-else (WIN32)
-	if (NOT HAIKU)
-		target_link_libraries(snamp portaudio)
-	endif (NOT HAIKU)
-endif (WIN32)
+if (NOT HAIKU)
+	target_link_libraries(snamp portaudio)
+endif (NOT HAIKU)
